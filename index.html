@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="./Images/user-circle.png" />
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button type="btn"><a href="#" target="blank">Sign Out</a></button></li>
+        </ul>
+    </div>   
+
+    <div class="flex-container">
+
+        <!-- user info card -->
+        <div class="user-card">
+            <div class="card-header">
+                <img src="./images/user-circle.png" alt="user circle" class="avatar-m">
+            </div>
+            <div class="card-body">
+                <h1>Alexander P. Mann</h1>
+                    <h3>
+                        <img src="./images/map-marker.png" alt="map maker" class="icon-s">
+                        <a href="https://goo.gl/maps/tEu2opYXjBoAmt7z9" alt="map" target="blank">Arlington, VA</a>
+                    </h3>
+                <p>Developer | Engineer | Problem Solver<br>
+                Master of shadows and the Internet!</p>        
+                <p>
+                    <a href="#">
+                        <img src="./images/gear.png" alt="gear" class="icon-s">edit profile
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex-container">
+
+        <!-- education card -->
+        <div class="ed-card">
+            <div class="ed-header">
+                <h2>Education</h2>
+            </div>
+            <div class="ed-body">
+                <h3>Coding Dojo - Full Stack Bootcanp</h3>
+                    <p>Dec 2019 - Mar 2020<br>
+                    Triple black belt in Python, MERN, and C###.</p>        
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="flex-container">
+
+        <!-- connections request card -->
+        <div class="rec-card">
+            <div class="rec-header">
+                <span>2</span>
+                <h2>Connection Requests</h2>
+            </div>
+            <div class="rec-body">
+                <img src="Images/user-circle.png">
+                <h3>Todd E
+                    <img src="./Images/close-circle.png" alt="user circle" class="close-s"></h3>
+                <img src="Images/user-circle.png">
+                <h3>Phill K         
+                    <img src="./Images/accept-circle.png" alt="user circle" class="accept-s"></h3>
+            </div>
+        </div>
+
+        <div class="flex-container">
+
+            <!-- your connections card -->
+            <div class="con-card">
+                <div class="con-header">
+                    <span>500 +</span>
+                    <h2>Your Connections</h2>
+                </div>
+                <div class="con-body">
+                    <img src="Images/user-circle.png">
+                    <h3>Adriend D</h3>
+                    <img src="Images/user-circle.png">
+                    <h3>Anne J</h3>
+                    <img src="Images/user-circle.png">
+                    <h3>Alayne T</h3>
+                    <img src="Images/user-circle.png">
+                    <h3>Arry Y</h3>
+                    <active type="active"><a href="#" target="blank">View More</a></button>
+                </div>
+            </div>
+        
+        </div>
+    
+    </div>
+</body>
+</html>
