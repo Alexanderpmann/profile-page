@@ -1,0 +1,234 @@
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/* body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav bar */
+
+.nav {
+    background-color: #404040;
+    color: white;
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+        width: 50%;
+        display:inline-flex;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+/* button */
+
+button {
+    background-color: turquoise;
+    border: 2px solid black;
+    color: white;
+    box-shadow: 2px 3px black;
+    font-size: 16px;
+    height: 35px;
+    width: 100px;
+}
+
+active links
+
+.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* user card */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* styles to apply to body */
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* container flex code */
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* user card */
+
+.user-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    flex: 1;
+}
+
+.card-header {
+    background-color: lime;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+/* education card */
+
+.ed-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    flex: 2;
+}
+
+.ed-header {
+    background-color: royalblue;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.ed-body {
+    padding: 20px;
+}
+
+.ed-body h1,
+.ed-body h2,
+.ed-body h3,
+.ed-body p {
+    margin: 20px 0px;
+}
+
+/* Request card */
+
+.rec-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.rec-header {
+    background-color: purple;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.rec-body {
+    padding: 20px;
+}
+
+.rec-body h1,
+.rec-body h2,
+.rec-body h3,
+.rec-body p {
+    margin: 20px 0px;
+}
+
+/* connections card */
+
+.con-card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.con-header {
+    background-color: orange;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.con-body {
+    padding: 20px;
+}
+
+.con-body h1,
+.con-body h2,
+.con-body h3,
+.con-body p {
+    margin: 20px 0px;
+}
+
+/* avatar */
+
+.avatar-m {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* icon */
+
+.icon-s {
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* links */
+
+a {
+    color: #3a81e6;
+}
+
